@@ -89,15 +89,14 @@ body{
     display: none;
 }
 
+.informacoes-abas .informacao.selecionado{
+    display: block;
+}
+
 .informacoes-abas .sub-titulo{
     font-size: 22px;
     margin-bottom: 25px;
     text-align: center;
-}
-
-.informacoes-abas .informacao.selecionado{
-    display: block;
-
 }
 
 .informacoes-abas .descricao{
@@ -128,7 +127,11 @@ body{
     text-align: center;
     padding: 10px;
     font-size: 20px;
-    transition: opacity ;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.redes-sociais li a:hover{
+    opacity: 0.8;
 }
 
 .redes-sociais .github{
@@ -143,7 +146,5 @@ body{
     background-color: rgb(231, 23, 231);
 }
 
-.redes-sociais li a:hover{
-    opacity: 0.8;
-}
+
 
